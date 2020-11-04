@@ -1,0 +1,84 @@
+ @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.side_nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.side_nav li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 2px;
+  color: #000;
+
+}
+
+.side_nav li a.active {
+  background-color: #000;
+  color: white;
+}
+
+.side_nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.side_nav ul li a:hover{
+  color: #fff;
+}
+
+.checked {
+  color: orange;
+}
+
+
+
+
+/*footer*/
+
+footer{
+  background: #1D3157;
+  color: #fff;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 25px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #fff;
+
+}
+footer ul li a i{
+
+  background: red;
+  border-radius: 50%;
+}
+footer .footer_icon_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+footer .footer_icon_box a{
+  text-decoration: none;
+}
+footer .footer_icon_box i{
+  font-size: 40px;
+  padding: 20px 22px;
+  background: #387DFF;
+  color: #fff;
+  border-radius: 50%;
+  border: 3px solid #387DFF;
+  transition: 0.4s;
+}
+footer .footer_icon_box:hover i{
+  background: transparent;
+  border: 3px solid #fff;
+}
+
